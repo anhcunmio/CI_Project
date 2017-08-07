@@ -1,0 +1,258 @@
+.container{
+	width: 1200px;
+	font-size: 12px;
+	font-family: Arial;
+	position: absolute;
+	left: 75px;
+	right: 75px;
+	
+}
+.fluid{
+
+}
+.footer-top{
+	display: flex;
+	background-color: #3bbdfb;
+	color: white;
+	font-size: 12px;
+	margin-top: 0px;
+}
+.footer-top #text{
+	display: flex;
+	padding-left: 150px;
+	padding-top: 0px;
+}
+.footer-top #menu-top{
+	display: flex;
+	padding-left: 250px;
+
+}
+.footer-top #menu-top a{
+	color: white;
+    text-decoration: none;
+    padding: 10px 10px 0px 10px;
+    border-right: 1px solid;
+    height: 25px;
+}
+
+.footer-top #text p{
+	margin:10px;
+}
+.footer-top #text img{
+	height: 15px;
+    margin-top: 10px;
+    margin-right: -5px;
+}
+
+.header{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.menu{
+	padding-top: 20px;
+
+	height: 30px;
+	text-align: center;
+	border-bottom: solid #dbdbdb;
+	border-top: solid #dbdbdb;
+	
+	
+}
+.menu a{
+	padding: 15px 15px 15px 15px;
+	text-decoration: none;
+	color: black;
+
+}
+.menu a:hover{
+	padding-top: 20px;
+	padding-bottom: 15px;
+
+	color: blue;
+	background-color: #f7f7f7;
+	border-bottom: solid #bab7b7;
+    border-top: solid #bab7b7;
+
+}
+.banner img{
+	    border-bottom: solid #dbdbdb;
+}
+
+.slide{
+	background-color: #f7f8fa;
+	height: 410px;
+	padding-top: 1px;
+}
+.slide #text{
+	text-align: center;
+	font-size: 12;
+}
+.slide .circle img{
+	margin: 30px 0px 0px 115px;
+}
+
+.recent{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.recent #nextback{
+	padding-left: 920px;
+    padding-bottom: 10px;
+
+}.recent #slide img{
+
+-moz-transition:-moz-transform 0.2s ease-in; 
+-webkit-transition:-webkit-transform 0.2s ease-in; 
+-o-transition:-o-transform 0.2s ease-in;
+}
+.recent #slide img:hover{
+-moz-transform:scale(1.3); 
+-webkit-transform:scale(1.3);
+-o-transform:scale(1.3);
+}
+
+.question{
+	display: flex;
+	background-color: #f7f8fa;
+	padding-bottom: 50px;
+}
+.question #comment{
+	width: 500px;
+    padding-left: 100px;
+
+}
+.question #feq{
+	padding-left: 100px;
+}
+.question #feq ul{
+	list-style: none;
+	margin-left: -50px;
+}
+.question #feq ul li{
+	padding: 10px;
+}
+.question #feq ul li:before {
+    content: "+";
+    margin-right: 4px;
+
+}
+.question #feq ul li button{
+	border: none;
+background-color: white;
+font-weight: bold;
+}
+.question #feq ul p{
+display: none;
+margin-left: 25px;
+}
+.latest-news{
+	text-align: center;
+}
+.latest-news #news{
+	    margin: 50px -150px 75px -180px;
+}
+.ads{
+	text-align: center;
+    padding-bottom: 50px;
+	background-color: #f7f8fa;
+	padding-top: 50px;
+
+}
+.ads .imgads {
+	 margin-left: -25px;
+
+}
+
+
+.search{
+	background-color: #37bcfb;
+	height: 40px;
+	color: white;
+	display: flex;
+	padding-left: 115px;
+    padding-top: 15px;
+
+	
+}
+.search img{
+	margin-right: 10px;
+}
+.search #searchtext {
+	width: 225px;
+	height: 25px;
+    border-radius: 5px;
+    background-color: #37bcfb;
+    color: white;
+    border:solid 1px;
+}
+.search #searchtext input{
+	background-color: #37bcfb;
+	height: 23px;
+    border: none;
+    border-radius: 5px;
+    width: 197px;
+    color: white;
+}
+.search #searchtext button{
+	border:none;
+	border-radius: 5px;
+	width: 28px;
+	float: right;
+	height: 25px;
+	background-image:url(image/search.jpg);
+}
+
+.bottom{
+	display: flex;
+	background-color: #f7f8fa;
+	padding-left: 115px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.bottom #cl1 {
+	width: 230px;
+	padding-top: 15px;
+	padding-right: 50px;
+
+}
+.bottom #cl2 {
+	width: 250px;
+}
+.bottom #cl3{
+	width: 200px;
+}
+.bottom #cl4{
+	width: 200px;
+}
+.bottom #cl4 input#type{
+	height: 25px;
+    width: 200px;
+   
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.bottom #cl4 input#submit{
+	float: right;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #37bcfb;
+}
+.footer-bot{
+	display: flex;
+	background-color: #2a2b2c;
+	color: #a6a6a6;
+	font-size: 12px;
+}
+.footer-bot #menu-bot{
+	padding-left: 110px;
+}
+.footer-bot #sign{
+	padding-left: 400px;
+}
+
+
