@@ -34,7 +34,7 @@ class Registration_controller extends CI_Controller{
 				}else{
 					$data['success']= "Successfully! ";
 					$this->load->view('register/regview',$data);
-					// redirect(base_url("Blog_controller/magazine"));
+					
 				}
 			}
 		
